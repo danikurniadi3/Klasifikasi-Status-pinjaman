@@ -1,0 +1,46 @@
+Rules 
+R1	IF Credit_History <= 0.50 && JumlahPinjaman <= 547.50 && IncomeNasabah <= 6266.50 && IncomePasangan <= 6623.00 && JangkaWaktuPinjaman <= 240.00 THEN ditolak
+R2	IF Credit_History <= 0.50 && JumlahPinjaman <= 547.50 && IncomeNasabah <= 6176.00 && IncomePasangan <= 6623.00 && JumlahPinjaman <= 61.50 && JangkaWaktuPinjaman <= 240.00 THEN ditolak
+R3	IF Credit_History <= 0.50 && JumlahPinjaman <= 547.50 && IncomeNasabah <= 3594.50 && IncomePasangan <= 6623.00 && JangkaWaktuPinjaman <= 240.00 THEN ditolak 
+R4	IF Credit_History <= 0.50 && JumlahPinjaman <= 61.50 && IncomeNasabah <= 6266.50 && IncomePasangan <= 6623.00 && JangkaWaktuPinjaman <= 240.00 THEN ditolak
+R5	IF Credit_History <= 0.50 && JumlahPinjaman <= 61.50 && IncomeNasabah <= 6176.00 && IncomePasangan <= 6623.00 && JumlahPinjaman <= 61.50 && JangkaWaktuPinjaman <= 240.00 THEN ditolak
+R6	IF Credit_History <= 0.50 && JumlahPinjaman <= 61.50 && IncomeNasabah <= 3594.50 && IncomePasangan <= 6623.00 && JangkaWaktuPinjaman <= 240.00 THEN ditolak 
+-------------------------------------------------------------------------------------------------------------------------------------
+R7	IF Credit_History <= 0.50 && JumlahPinjaman <= 547.50 && IncomeNasabah <= 6266.50 && IncomePasangan <= 6623.00 && JangkaWaktuPinjaman  >  240.00 THEN disetujui
+R8	IF Credit_History <= 0.50 && JumlahPinjaman <= 547.50 && IncomeNasabah <= 6176.00 && IncomePasangan <= 6623.00 && JumlahPinjaman <= 61.50 && JangkaWaktuPinjaman > 240.00 THEN ditolak
+R9	IF Credit_History <= 0.50 && JumlahPinjaman <= 547.50 && IncomeNasabah <= 3594.50 && IncomePasangan <= 6623.00 && JangkaWaktuPinjaman >  240.00 THEN disetujui 
+R10	IF Credit_History <= 0.50 && JumlahPinjaman <= 61.50 && IncomeNasabah <= 6266.50 && IncomePasangan <= 6623.00 && JangkaWaktuPinjaman >  240.00THEN disetujui
+R11	IF Credit_History <= 0.50 && JumlahPinjaman <= 61.50 && IncomeNasabah <= 6176.00 && IncomePasangan <= 6623.00 && JumlahPinjaman <= 61.50 && JangkaWaktuPinjaman >  240.00 THEN ditolak
+R12	IF Credit_History <= 0.50 && JumlahPinjaman <= 61.50 && IncomeNasabah <= 3594.50 && IncomePasangan <= 6623.00 && JangkaWaktuPinjaman >  240.00 THEN disetujui 
+------------------------------------------------------------------------------------------------------------------------------------
+R13	IF Credit_History <= 0.50 && JumlahPinjaman <= 100.50 && IncomeNasabah <= 6266.50 && IncomePasangan <= 6623.00 && JangkaWaktuPinjaman <= 240.00 THEN ditolak
+R14	IF Credit_History <= 0.50 && JumlahPinjaman <= 100.50 && IncomeNasabah <= 6176.00 && IncomePasangan <= 6623.00 && JumlahPinjaman <= 61.50 && JangkaWaktuPinjaman <= 240.00 THEN ditolak
+R15	IF Credit_History <= 0.50 && JumlahPinjaman <= 100.50 && IncomeNasabah <= 3594.50 && IncomePasangan <= 6623.00 && JangkaWaktuPinjaman <= 240.00 THEN ditolak 
+R16	IF Credit_History <= 0.50 && JumlahPinjaman <= 100.50 && IncomeNasabah <= 6266.50 && IncomePasangan <= 6623.00 && JangkaWaktuPinjaman <= 240.00 THEN ditolak
+R17	IF Credit_History <= 0.50 && JumlahPinjaman <= 100.50 && IncomeNasabah <= 6176.00 && IncomePasangan <= 6623.00 && JumlahPinjaman <= 61.50 && JangkaWaktuPinjaman <= 240.00 THEN ditolak
+R18	IF Credit_History <= 0.50 && JumlahPinjaman <= 100.50 && IncomeNasabah <= 3594.50 && IncomePasangan <= 6623.00 && JangkaWaktuPinjaman <= 240.00 THEN ditolak 
+-------------------------------------------------------------------------------------------------------------------------------------
+R19	IF Credit_History <= 0.50 && JumlahPinjaman <= 100.50 && IncomeNasabah <= 6266.50 && IncomePasangan <= 6623.00 && JangkaWaktuPinjaman  >  240.00 THEN disetujui
+R20	IF Credit_History <= 0.50 && JumlahPinjaman <= 100.50 && IncomeNasabah <= 6176.00 && IncomePasangan <= 6623.00 && JumlahPinjaman <= 61.50 && JangkaWaktuPinjaman > 240.00 THEN ditolak
+R21	IF Credit_History <= 0.50 && JumlahPinjaman <= 100.50 && IncomeNasabah <= 3594.50 && IncomePasangan <= 6623.00 && JangkaWaktuPinjaman >  240.00 THEN disetujui 
+R22	IF Credit_History <= 0.50 && JumlahPinjaman <= 100.50 && IncomeNasabah <= 6266.50 && IncomePasangan <= 6623.00 && JangkaWaktuPinjaman >  240.00THEN disetujui
+R23	IF Credit_History <= 0.50 && JumlahPinjaman <= 100.50 && IncomeNasabah <= 6176.00 && IncomePasangan <= 6623.00 && JumlahPinjaman <= 61.50 && JangkaWaktuPinjaman >  240.00 THEN ditolak
+R24	IF Credit_History <= 0.50 && JumlahPinjaman <= 100.50 && IncomeNasabah <= 3594.50 && IncomePasangan <= 6623.00 && JangkaWaktuPinjaman >  240.00 THEN disetujui 
+------------------------------------------------------------------------------------------------------------------------------------
+R25	IF Credit_History <= 0.50 && JumlahPinjaman >  100.50 && IncomeNasabah <= 3594.50 && IncomePasangan <= 6623.00 && JangkaWaktuPinjaman >  240.00 THEN di tolak
+R26	IF Credit_History <= 0.50 && JumlahPinjaman >  100.50 && IncomeNasabah <= 3228.00 && IncomePasangan <= 6623.00 && JangkaWaktuPinjaman >  240.00 THEN di tolak
+R27	IF Credit_History <= 0.50 && JumlahPinjaman >  100.50 && IncomeNasabah >  3228.00 && IncomePasangan <= 6623.00 && JangkaWaktuPinjaman >  240.00 THEN di setujui
+R28	IF Credit_History <= 0.50 && JumlahPinjaman >  100.50 && IncomeNasabah <= 3308.00 && IncomePasangan <= 6623.00 && JangkaWaktuPinjaman >  240.00 THEN di setujui
+R29	IF Credit_History <= 0.50 && JumlahPinjaman >  100.50 && IncomeNasabah >  3308.00 && IncomePasangan <= 6623.00 && JangkaWaktuPinjaman >  240.00 THEN di tolak
+R30	IF Credit_History <= 0.50 && JumlahPinjaman >  100.50 && IncomeNasabah >  3308.00 && IncomePasangan >  6623.00 && JangkaWaktuPinjaman >  240.00 THEN di setujui
+R31	IF Credit_History <= 0.50 && JumlahPinjaman >  100.50 && IncomeNasabah >  3594.50 && IncomePasangan >  6623.00 && JangkaWaktuPinjaman >  240.00 THEN di setujui
+R32	IF Credit_History <= 0.50 && JumlahPinjaman >  100.50 && IncomeNasabah <= 4934.00 && IncomePasangan >  6623.00 && JangkaWaktuPinjaman >  240.00 THEN di setujui
+R33	IF Credit_History <= 0.50 && JumlahPinjaman >  100.50 && IncomeNasabah <= 3596.50 && IncomePasangan >  6623.00 && JangkaWaktuPinjaman >  240.00 THEN di setujui
+R34	IF Credit_History <= 0.50 && JumlahPinjaman <= 121.50 && IncomeNasabah >  3596.50 && IncomePasangan >  6623.00 && JangkaWaktuPinjaman >  240.00 THEN di tolak
+R35	IF Credit_History <= 0.50 && JumlahPinjaman >  121.50 && IncomeNasabah >  3596.50 && IncomePasangan >  6623.00 && JangkaWaktuPinjaman >  240.00 THEN di setujui
+----------------------------------------------------------------
+R36	IF Credit_History >  0.50 && JumlahPinjaman >  121.50 && IncomeNasabah >  3596.50 && IncomePasangan <= 26918.50 && JangkaWaktuPinjaman <= 420.00  THEN di setujui
+R37	IF Credit_History >  0.50 && JumlahPinjaman >  121.50 && IncomeNasabah >  3596.50 && IncomePasangan <= 26918.50 && JangkaWaktuPinjaman <= 48.00  THEN di setujui
+R38	IF Credit_History >  0.50 && JumlahPinjaman >  121.50 && IncomeNasabah >  3596.50 && IncomePasangan <= 26918.50 && JangkaWaktuPinjaman <= 24.00  THEN di setujui
+R39	IF Credit_History >  0.50 && JumlahPinjaman >  121.50 && IncomeNasabah >  3596.50 && IncomePasangan <= 26918.50 && JangkaWaktuPinjaman >  24.00  THEN di tolak
+R40	IF Credit_History >  0.50 && JumlahPinjaman >  121.50 && IncomeNasabah >  3596.50 && IncomePasangan <= 26918.50 && JangkaWaktuPinjaman >  48.00  THEN di tolak
