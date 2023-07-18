@@ -58,6 +58,8 @@
             $status = "Disetujui";
           } else if ($Credit_History >  0.50 && $JumlahPinjaman >  121.50 && $IncomeNasabah >  3596.50 && $IncomePasangan <= 26918.50 && $JangkaWaktuPinjaman <= 24.00){
             $status = "Disetujui";
+          }else{
+            $status = "Disetujui";
           }
 
           // Tampilkan hasil klasifikasi
